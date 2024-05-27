@@ -55,6 +55,17 @@ python -m yolox.tools.train -n yolox-s -c yolox_s.pth -d 1 -b 8 --fp16 -o
 ## Results
 
 
+per class AP:
+| class   | AP     |
+|:--------|:-------|
+| person  | 17.558 |
+
+per class AR:
+| class   | AR     |
+|:--------|:-------|
+| person  | 34.260 |
+
+
 
 ## Resources
 
