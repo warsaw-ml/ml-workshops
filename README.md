@@ -54,17 +54,29 @@ python -m yolox.tools.train -n yolox-s -c yolox_s.pth -d 1 -b 8 --fp16 -o
 
 ## Results
 
+### Val set
 
 per class AP:
 | class   | AP     |
 |:--------|:-------|
-| person  | 17.558 |
+| person  | 51.436 |
 
 per class AR:
 | class   | AR     |
 |:--------|:-------|
-| person  | 34.260 |
+| person  | 58.962 |
 
+### Test set
+
+per class AP:
+| class   | AP     |
+|:--------|:-------|
+| person  | 43.489 |
+
+per class AR:
+| class   | AR     |
+|:--------|:-------|
+| person  | 54.756 |
 
 
 ## Resources
@@ -77,4 +89,3 @@ https://github.com/Megvii-BaseDetection/YOLOX
 Original data repo:
 
 https://github.com/ucuapps/top-view-multi-person-tracking
-
