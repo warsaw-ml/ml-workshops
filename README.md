@@ -28,7 +28,6 @@ python tools/demo.py image -n yolox-s -c best_ckpt.pth --path test.jpg --conf 0.
 ```
 
 Test on testset (requires gpu): <br>
-(todo: im not sure if this tests on validation or test set)
 ```
 # download best_ckpt.pth from gdrive and place it in YOLOX-0.3.0/
 
