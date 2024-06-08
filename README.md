@@ -12,7 +12,7 @@ https://drive.google.com/drive/folders/16qs4_58hXvWzZx0FX5BC1btoRGKLb0mY?usp=sha
 
 Installation (required for all actions):
 ```
-# recommended python 3.9
+# recommended python 3.8
 
 cd YOLOX-0.3.0
 pip install -r requirements.txt
