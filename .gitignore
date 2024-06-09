@@ -163,3 +163,5 @@ YOLOX-0.3.0/.datasets
 YOLOX-0.3.0/latest_ckpt.pth
 YOLOX-0.3.0/yolox_m.pth
 YOLOX-0.3.0/yolox_s.pth
+
+data/
