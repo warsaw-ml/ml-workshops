@@ -165,3 +165,5 @@ YOLOX-0.3.0/yolox_m.pth
 YOLOX-0.3.0/yolox_s.pth
 
 data/
+data_new/
+combined_dataset/
