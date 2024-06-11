@@ -167,3 +167,4 @@ YOLOX-0.3.0/yolox_s.pth
 data/
 data_new/
 combined_dataset/
+wandb/

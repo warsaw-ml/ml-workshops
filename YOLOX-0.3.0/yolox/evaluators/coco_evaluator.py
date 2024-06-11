@@ -11,6 +11,7 @@ import time
 from loguru import logger
 from tabulate import tabulate
 from tqdm import tqdm
+import random
 
 import numpy as np
 
@@ -219,9 +220,13 @@ class COCOEvaluator:
             for ind in range(bboxes.shape[0]):
                 
                 idx = int(cls[ind])
-                if idx != 0:
+                if idx != 0 and idx != 1:
                     # print(f"error: {idx}")
-                    idx = 0
+                    
+                    # random number, either 0 or 1
+                    idx = random.randint(0, 1)
+                    
+                    # idx = 0
                     
                 label = self.dataloader.dataset.class_ids[idx]
                 pred_data = {
